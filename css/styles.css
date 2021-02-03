@@ -510,3 +510,46 @@ p {
 	margin-top: 27px;
 }
 
+.app-link {
+	margin-top: 50px;
+	background-color: #F6F6F9;
+	padding: 40px;
+	background-image: url('../img/background.png');
+	background-position: 5px 20px;
+	background-repeat: no-repeat;
+	margin-bottom: 100px;
+}
+
+.app-link-text {
+	width: 530px;
+	margin-left: 200px;
+	margin-right: 75px;
+}
+
+.app-link-text h4 {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+	color: #295093;
+}
+
+.app-link-text p {
+	margin-top: 10px;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+	color: #333333;
+}
+
+.app-link-section {
+	display: flex;
+	align-items: center;
+}
+
+.app-link-download {
+	display: flex;
+}
+
+.app-link-download img:first-child {
+	margin-right: 20px;
+}
