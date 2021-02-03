@@ -21,9 +21,19 @@ body {
 	margin-right: auto;
 }
 
+.container-left {
+	width: 800px;
+}
+
+.container-right {
+	width: 390px;
+	margin-left: 60px;
+}
+
 a {
 	display: inline-block;
 	text-decoration: none;
+	color: black;
 }
 
 ul {
@@ -327,4 +337,176 @@ ul {
 	font-weight: 500;
 	font-size: 25px;
 	line-height: 30px;
+
 }
+
+.short-news-section {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 18px;
+
+}
+
+.short-news-item {
+	margin-right: 35px;
+	object-fit: scale-down;
+}
+
+.short-news-item:nth-child(3) {
+	margin-right: 0px;
+}
+.short-news-item:nth-child(6) {
+	margin-right: 0px;
+}
+
+.short-news-item a {
+	font-size: 14px;
+	font-weight: 500;
+	width: 386px;
+	box-sizing: content-box;
+	margin-bottom: 18px;
+	color: black;
+}
+
+.short-news-item>a>h3 {
+	margin: 0;
+	padding: 0;
+	margin-top: 11px;
+	margin-bottom: 11px;
+}
+
+.time {
+	opacity: 0.7;
+}
+
+.notification-bar {
+	display: flex;
+	align-items: center;
+	position: relative;
+	background: rgba(239, 186, 84, 0.18);
+	border-radius: 5px;
+	padding: 20px;
+}
+
+#notification-text {
+
+	margin-left: 47px;
+	margin-right: auto;
+}
+
+#notification-text::before {
+	content: '';
+	width: 30px;
+	height: 35px;
+	background: url(../img/notification.svg);
+	position: absolute;
+	top: 27px;
+	left: 20px;
+}
+
+button {
+	background: none;
+	border: none;
+}
+
+.notification-btn {
+	background: linear-gradient(90deg, #FE5C28 0%, rgba(255, 139, 54, 0.9) 88.43%);
+	padding: 10px;
+	border-radius: 5px;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	color: #fff;
+}
+
+.latest-news-item {
+	margin-top: 18px;
+}
+
+.latest-news-item a {
+	display: flex;
+}
+
+.latest-news-item h4 {
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 20px;
+	margin-bottom: 8px;
+}
+
+.latest-news-item p {
+	font-size: 15px;
+	line-height: 18px;
+	margin-bottom: 10px;
+}
+
+.latest-news-item time {
+	opacity: 0.7;
+}
+
+h4 {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.text-left {
+	margin-left: 19px;
+}
+
+.more-news-btn {
+	padding: 10px 32px;
+	background: #295093;
+	border-radius: 5px;
+	color: white;
+	margin-top: 25px;
+	margin-left: 320px;
+}
+
+.container-right-top {
+	width: 386px;
+	height: 542px;
+	background: #F6F6F9;
+	border-radius: 5px;
+	margin-top: 46px;
+	padding: 16px 20px;
+}
+
+.container-right-top h3 {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	margin-top: 15px;
+	margin-bottom: 18px;
+}
+
+.right-text {
+	font-size: 17px;
+	line-height: 20px;
+	width: 300px;
+	margin-bottom: 18px;
+	border-bottom: 2px solid #E4E4E4;
+}
+
+.right-text p {
+	margin-bottom: 15px;
+}
+
+.right-text .time {
+	font-size: 14px;
+}
+
+.top-news {
+	display: flex;
+}
+
+.container-right-bottom {
+	margin-top: 27px;
+}
+
